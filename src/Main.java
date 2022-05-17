@@ -258,7 +258,7 @@ public class Main {
 	}
 
 	public static void cmdMenu() {
-		System.out.println("'e' = Explore");
+		System.out.println("'explore' = Explore");
 		System.out.println("'n', 's', 'w', and 'e' = Direction");
 		System.out.println("'i' = Inventory");
 		System.out.println("'g' = Pickup");
