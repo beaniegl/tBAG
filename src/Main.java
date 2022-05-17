@@ -52,13 +52,6 @@ public class Main {
 		System.out.println(currentRoom);
 	}
 
-	/*
-	 * private static void pickup(String input) { ArrayList<Item> roomContents = new
-	 * ArrayList<Item>(); roomContents=Room.getContents(); for (Item list :
-	 * Room.getContents()) { if (list.getName().equals(input)) {
-	 * Character.addItem(list); } else { System.out.println("Not available."); } } }
-	 */
-
 	private static void placeChar(Character war, Room r) {
 		war.setRoom(r);
 	}
@@ -331,5 +324,4 @@ public class Main {
 			run();
 		}
 	}
-
 }
