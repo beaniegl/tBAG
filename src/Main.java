@@ -218,8 +218,8 @@ public class Main {
 
 			if (command.equals("explore")) {
 				forf();
-			} else if (command.equals("i")) {
-				Character.inventory();
+			}// else if (command.equals("i")) {
+				//Character.inventory();
 			} else if (command.equals("g")) {
 				System.out.println("Get");
 				Item temp = Character.getRoom().getrItem();
@@ -259,7 +259,7 @@ public class Main {
 	public static void cmdMenu() {
 		System.out.println("'explore' = Explore");
 		System.out.println("'n', 's', 'w', and 'e' = Direction");
-		System.out.println("'i' = Inventory");
+		//System.out.println("'i' = Inventory");
 		System.out.println("'g' = Pickup");
 		System.out.println("'ex' = Examine");
 		System.out.println("'stats' = Stats");
