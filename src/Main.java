@@ -174,7 +174,6 @@ public class Main {
 		int max = 10;
 		Random fiorfli = new Random();
 		int value = fiorfli.nextInt(max);
-		System.out.println(value);
 		if (value >= 6 || Character.getRoom().getName().equals("Void")) {
 			System.out.println("You took a wrong turn and found an enemy!");
 			fight();
