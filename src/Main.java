@@ -220,7 +220,8 @@ public class Main {
 				forf();
 			}// else if (command.equals("i")) {
 				//Character.inventory();
-			} else if (command.equals("g")) {
+			//}
+			else if (command.equals("g")) {
 				System.out.println("Get");
 				Item temp = Character.getRoom().getrItem();
 				Character.addItem(temp);
